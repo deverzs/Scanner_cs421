@@ -144,8 +144,7 @@ bool word(string s) //boolian function that has to check if word is valid or not
 bool period(string s)
 {  // complete this **                                                                                                                                                                                      
 	if (s == ".") {
-		return true;
-	}
+		return true; }
 
   else {
   false;
@@ -252,7 +251,7 @@ int main()
 	string filename;
 	cout << "Enter the input file name: ";
 	cin >> filename;
-	filename = "C:\\Users\\Small\\Desktop\\cs421_TheoryComp\\ScannerFiles\\scannertest1";
+
 	fin.open(filename.c_str());
 
 	// the loop continues until eofm is returned.                                                                                                                                                             
